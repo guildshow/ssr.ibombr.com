@@ -1,6 +1,6 @@
 title: ssr服务器搭建手册
 logo: /assets/img/logo.png
 description: 从0开始，如何搭建一个SSR服务器.
-show_downloads: true
+show_downloads: false
 google_analytics:
 theme: jekyll-theme-minimal

@@ -117,11 +117,7 @@ pip install shadowsocks
 
 这样，Shadowsocks的服务器就搭建好了。
 
-如果安装时提示：
-
-![nopythonpip](F:/Work@Home/Git@Home/Coding/01.iWanr_docs/Docsify_DocumentText/docs/_images/ssr/nopythonpip.png)
-
-那么就需要安装pip。首先执行命令：
+如果安装时提示：`No  package python-pip available.`，那么就需要安装pip。首先执行命令：
 
 ```bash
 yum -y install epel-release
