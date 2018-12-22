@@ -22,10 +22,10 @@
 
         <p>{{ site.description | default: site.github.project_tagline }}</p>
         
-
-        <li><p class="view"><a href="/about.md"><strong>关于</strong>本站</a></p></li>
-        <li><p class="view"><a href="/downloads">软件<strong>下载</strong></a></p></li>
-
+        <ul class="downloads">
+        <li><p class="view"><a href="/about"><strong>关于本站</strong></a></p></li>
+        <li><p class="view"><a href="/downloads"><strong>软件下载</strong></a></p></li>
+        </ul>
 
         {% if site.github.is_project_page %}
         <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ site.github.repository_nwo }}</small></a></p>
